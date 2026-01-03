@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+    /* Adding your custom colors to the theme */
+    --color-coffee-light: #f6d1a5;
+    --color-coffee-default: #d4a373;
+    --color-coffee-dark: #68432e;
+}
+
+/* Apply the gradient globally to the body */
+@layer base {
+    body {
+        color: #213547;
+        font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+
+    /* Optional: Clean up heading defaults since we are using Tailwind now */
+    h1, h2, h3 {
+        @apply font-extrabold text-coffee-dark leading-tight;
+    }
+}
+
+html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
