@@ -4,30 +4,20 @@ import { FaTwitter, FaLinkedin, FaYoutube, FaDiscord } from "react-icons/fa";
 const footerData = {
     brand: {
         name: "Coffee Beans Studio",
-        email: "info@coffeebeansstudio.com",
-        phone: "+92 300 1234567",
+        email: "coffeebeans270@gmail.com",
+        phone: "+92 327 8896738",
         location: "Lahore, Pakistan",
     },
     socials: [
         {
             name: "Twitter",
             icon: FaTwitter,
-            url: "https://twitter.com",
-        },
-        {
-            name: "LinkedIn",
-            icon: FaLinkedin,
-            url: "https://linkedin.com",
+            url: "https://twitter.com/coffeebeans270",
         },
         {
             name: "YouTube",
             icon: FaYoutube,
-            url: "https://youtube.com",
-        },
-        {
-            name: "Discord",
-            icon: FaDiscord,
-            url: "https://discord.com",
+            url: "https://www.youtube.com/@Coffee-Beans-Dev",
         },
     ],
 };
