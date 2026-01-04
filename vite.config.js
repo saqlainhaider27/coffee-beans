@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // 👈 Add this line. It must start and end with a forward slash.
-  base: '/coffee-beans/',
+  base: '/',
 })
